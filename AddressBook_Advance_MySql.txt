@@ -11,22 +11,12 @@ Query OK, 1 row affected (0.2634 sec)
 +----------------------+
 | address_book_service |
 | addressbookservice   |
-| bookstoredb          |
-| dbname               |
-| demo                 |
 | employeedb           |
-| floarmilldemo        |
-| fundoonotedb         |
 | information_schema   |
-| mysql                |
 | payroll_services     |
 | performance_schema   |
 | sakila               |
-| simple               |
-| stud                 |
-| sys                  |
-| user                 |
-| world                |
+|             	       |
 +----------------------+
 18 rows in set (0.0019 sec)
 
@@ -147,7 +137,7 @@ MySQL  localhost:3306 ssl  address_book_service  SQL > select * from address_boo
 1 row in set (0.0015 sec)
 
 ==================================================================================================================
-UC8_Ability to retrieve entries sorted alphabetically by Person’s name for a given city
+UC8_Ability to retrieve entries sorted alphabetically by PersonÂ’s name for a given city
 
  MySQL  localhost:3306 ssl  address_book_service  SQL > select firstName,city from address_book order by firstName;
 +-----------+------+
